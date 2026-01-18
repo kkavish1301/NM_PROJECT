@@ -48,7 +48,7 @@ GitHub Actions workflow (`.github/workflows/deploy.yml`) automates:
 2. Building and pushing the Docker image to Amazon ECR
 3. Deploying the updated image to the EC2 instance via SSH
 
-This workflow runs on every push or PR to the `main` branch.
+This workflow runs on every push or PR to the `master` branch.
 
 Secrets needed in GitHub:
 
